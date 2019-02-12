@@ -6,7 +6,7 @@ db = pymysql.connect(host=sys.argv[1], user=sys.argv[2], password=sys.argv[3], p
 
 cursor = db.cursor()
 
-# 按顺序传入7个参数，mysql地址，用户名，密码，端口号， 数据库名，表名，表关键字
+# 按顺序传入7个参数，mysql地址，用户名，密码，端口号， 数据库名，表名，表关键字（不包含ID）
 keys = ''
 for key in sys.argv[7].split(' '):
     if key == sys.argv[7].split(' ')[-1]:
