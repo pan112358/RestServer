@@ -1,5 +1,7 @@
 FROM python:3.6
 
+MAINTAINER PeterPan
+
 COPY ./files /opt/FlaskServer/
 
 ENV MYSQL_HOST=
