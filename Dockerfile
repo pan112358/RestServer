@@ -13,7 +13,6 @@ ENV MYSQL_TABLE_NAME=
 ENV SERVICE_KEYS=
 
 RUN pip install --no-cache pymysql Flask\
-  &&chmod 777 /opt/FlaskServer/start.sh\
-  &&sh /opt/FlaskServer/start.sh
+  &&chmod 777 /opt/FlaskServer/start.sh
   
 EXPOSE 5000
