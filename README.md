@@ -4,11 +4,17 @@ This is a simple restful server with mysql as data storage.
 Before you start, you should deploy a mysql server first, and get the access information ,including:
 
 MYSQL_HOST
+
 MYSQL_USER
+
 MYSQL_PASSWORD
+
 MYSQL_PORT
+
 MYSQL_DB_NAME
+
 MYSQL_TABLE_NAME
+
 SERVICE_KEYS  #table structure, different keys are seperated by a space.
 
 You should assign correct value for the above ENV parameters to your container when you create it.
