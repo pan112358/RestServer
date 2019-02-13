@@ -23,8 +23,10 @@ try:
     cursor.execute(sql)
     # 执行sql语句
     db.commit()
+    print('Database and table have been created successfully')
 except:
     # 发生错误时回滚
+    raise exception
     db.rollback()
 
 # 关闭数据库连接
