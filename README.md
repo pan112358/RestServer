@@ -11,9 +11,9 @@ MYSQL_PASSWORD
 
 MYSQL_PORT
 
-MYSQL_DB_NAME
+MYSQL_DB_NAME        #the container can also create one, you can use the existing DB or a new one
 
-MYSQL_TABLE_NAME
+MYSQL_TABLE_NAME       #the container can also create one, you can use the existing table or a new one
 
 SERVICE_KEYS             #table structure, different keys are seperated by a space.
 
