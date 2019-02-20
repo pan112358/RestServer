@@ -15,11 +15,9 @@ MYSQL_DB_NAME
 
 MYSQL_TABLE_NAME
 
-SERVICE_KEYS  #table structure, different keys are seperated by a space.
+SERVICE_KEYS             #table structure, different keys are seperated by a space.
 
 You should assign correct value for the above ENV parameters to your container when you create it.
-
-When start the container, you should use /opt/FlaskServer/start.sh command as the start command.
 
 Port 5000 is used in the container, and below operation are supported
 
