@@ -11,11 +11,11 @@ MYSQL_PASSWORD
 
 MYSQL_PORT
 
-MYSQL_DB_NAME        #the container can also create one, you can use the existing DB or a new one
+MYSQL_DB_NAME                            #the container can also create one, you can use the existing DB or a new one
 
-MYSQL_TABLE_NAME       #the container can also create one, you can use the existing table or a new one
+MYSQL_TABLE_NAME                         #the container can also create one, you can use the existing table or a new one
 
-SERVICE_KEYS             #table structure, different keys are seperated by a space.
+SERVICE_KEYS                             #table structure, different keys are seperated by a space.
 
 You should assign correct value for the above ENV parameters to your container when you create it.
 
@@ -66,11 +66,12 @@ MYSQL_PASSWORD
 
 MYSQL_PORT
 
-MYSQL_DB_NAME #容器也可以创建一个，你可以使用现有的DB或指定一个新的DB名称
+MYSQL_DB_NAME                     #容器也可以创建一个，你可以使用现有的DB或指定一个新的DB名称
 
-MYSQL_TABLE_NAME #容器也可以创建一个，您可以使用现有表或新表
+MYSQL_TABLE_NAME                  #容器也可以创建一个，您可以使用现有表或新表
 
-SERVICE_KEYS #数据库表结构，不同的键由空格分隔。
+SERVICE_KEYS                      #数据库表结构，不同的键由空格分隔。
+
 
 在创建容器时，应将上述环境变量参数的正确值分配给容器。
 
