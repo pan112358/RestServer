@@ -15,6 +15,6 @@ ENV SERVICE_KEYS=
 RUN pip install --no-cache pymysql Flask\
   &&chmod 777 /opt/FlaskServer/start.sh
 
-Entrypoint ./opt/FlaskServer/start.sh
+ENTRYPOINT ./opt/FlaskServer/start.sh
 
 EXPOSE 5000
